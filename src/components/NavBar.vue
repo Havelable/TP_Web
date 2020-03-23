@@ -4,13 +4,13 @@
     <router-link class="nav-button" :to="{ name: 'Formulaire'}"><h3>Formulaire</h3></router-link>
     
     <div class="nav-drop">
-      <router-link class="nav-button" :to="{ name: 'Liste'}">
+      <router-link class="nav-button" :to="{ name: 'List'}">
         <h3>Liste</h3><img class="icon" src="@/assets/arrow.svg" alt="">
       </router-link>
       <div class="dropdown-content">
-        <a class="nav-button" href="#">Link 1</a>
-        <a class="nav-button" href="#">Link 2</a>
-        <a class="nav-button" href="#">Link 3</a>
+        <router-link class="nav-button" :to="{ name: 'List1'}">Link 1</router-link>
+        <router-link class="nav-button" :to="{ name: 'List2'}">Link 2</router-link>
+        <router-link class="nav-button" :to="{ name: 'List3'}">Link 3</router-link>
       </div>
     </div>
 
